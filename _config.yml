@@ -21,8 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A simple monitor for my API services.
 
 # Deployment settings
-# baseurl: "" # Keep this empty if deploying to username.github.io
-# url: "https://username.github.io" # Your GitHub username
+baseurl: "/phil-space" # Note the leading slash
+url: "https://philcodex.github.io"
 
 # Build settings
 markdown: kramdown
