@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # About
-![](/images/human-clouds.png)
+<img src="{{ 'images/human-clouds.png' | relative_url }}" alt="Writing" style="width: 100%; height: auto;">
 I’m Phil Carroll-O’Kane: A technical support engineer, systems thinker, and writer.
 
 - Short story (who you are)
