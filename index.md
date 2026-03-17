@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Phil Carroll-O’Kane
-
 Technical support engineer, systems thinker, and writer.
 
 ![Digital header]({{ "/images/digital-header.webp" | relative_url }})
