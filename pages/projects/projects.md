@@ -8,7 +8,7 @@ permalink: /projects/
 
 # Projects
 
-<img src="{{ '/images/projects.png' | relative_url }}" alt="projects" style="width: 100%; height: auto;">
+<img src="/phil-space/images/projects.png" alt="Projects" style="width: 100%; height: auto;">
 
 A collection of practical tools and experiments focused on APIs, support engineering, and operational systems.
 
