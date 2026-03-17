@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # About
-
+![](/images/human-clouds.png)
 I’m Phil Carroll-O’Kane: A technical support engineer, systems thinker, and writer.
 
 - Short story (who you are)
@@ -17,6 +17,7 @@ I’m Phil Carroll-O’Kane: A technical support engineer, systems thinker, and 
     - customer-facing engineering
 
 ---
+
 
 I’m Phil Carroll-O’Kane; a technical support engineer, systems thinker, and writer.
 

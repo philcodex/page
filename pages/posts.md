@@ -4,7 +4,9 @@ title: Posts
 permalink: /posts/
 ---
 
-# Posts
+## Posts
+
+![](/images/posts.png)
 
 {% if site.posts.size > 0 %}
 {% for post in site.posts %}
