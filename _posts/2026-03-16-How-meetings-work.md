@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How meetings work and how they can work better"
-date: 2026-03-17 00:05:00 +0000
+date: 2026-03-16 00:05:00 +0000
 description: "Why remote teams need regular meetings to maintain morale and connection."
 categories: [teamwork, remote]
 ---

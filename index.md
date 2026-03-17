@@ -6,10 +6,8 @@ title: Home
 # Phil Carroll-O’Kane
 
 Technical support engineer, systems thinker, and writer.
-
-I write about support engineering, infrastructure, service management, and the practical side of building reliable systems. This site is also a home for notes, projects, and ideas I’m working on.
-
 <img src="/images/digital-header.webp">
+I write about support engineering, infrastructure, service management, and the practical side of building reliable systems. This site is also a home for notes, projects, and ideas I’m working on.
 
 ## What you'll find here
 
