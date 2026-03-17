@@ -6,7 +6,7 @@ permalink: /writing/
 
 ## Writing
 
-<img src="/images/writing-image.jpg" style="width: 100%; height: auto;">
+<img src="images/writing-image.jpg" style="width: 100%; height: auto;">
 
 A collection of articles, notes, and essays on support engineering, APIs, and operational systems.
 
