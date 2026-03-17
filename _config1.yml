@@ -4,6 +4,8 @@ description: A space for things
 url: "https://philcodex.github.io"
 baseurl: "/phil-space"
 
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
