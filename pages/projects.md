@@ -4,17 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
-## Projects
+# Projects
 
 A collection of practical tools and experiments focused on APIs, support engineering, and operational systems.
 
----
 
 ### In Progress
 
 | Project | Description | Tech |
 |--------|------------|------|
 | API Monitoring + Alerts | Monitor API endpoints, detect failures, classify errors (timeout, 500, DNS, SSL), and log responses for debugging. | Python · Requests · JSON · CLI |
+| Service Monitor: [here](https://philcodex.github.io/service-monitor) | Check uptime of service endpoints using a simple button, showing ms time to respond and http response code | Flask · API· CLI | 
 
 ---
 

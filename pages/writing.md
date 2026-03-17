@@ -4,7 +4,7 @@ title: Writing
 permalink: /writing/
 ---
 
-## Writing
+# Writing
 
 <img src="{{ '/images/writing-image.jpg' | relative_url }}" alt="Writing" style="width: 100%; height: auto;">
 

@@ -13,6 +13,8 @@
 html {
   font-size: 18px;
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+
 }
 
 body {
@@ -43,15 +45,27 @@ h4 {
   color: #111;
 }
 
+main {
+  margin-top: 0;
+}
+
+main > *:first-child {
+  margin-top: 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
 h1 {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 0.75rem;
 }
 
 h2 {
-  font-size: 2.2rem;
-  margin-top: 1rem;
+  font-size: 2.0rem;
+  margin-top: 0rem;
   margin-bottom: 1rem;
 }
 
@@ -129,18 +143,18 @@ header p {
 
 /* Force first element tighter at top */
 
-main > :first-child {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
+// main > :first-child {
+//   margin-top: 0 !important;
+//   padding-top: 0 !important;
+// }
 
-main > h1:first-child,
-main > header:first-child,
-main > section:first-child,
-main > article:first-child {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
+// main > h1:first-child,
+// main > header:first-child,
+// main > section:first-child,
+// main > article:first-child {
+//   margin-top: 0 !important;
+//   padding-top: 0 !important;
+// }
 
 /* Sections */
 
@@ -278,18 +292,37 @@ header h1 a:hover {
 
 /* Tables - smaller, cleaner */
 table {
-  font-size: 80%;
+  font-size: 0.8rem;
   border-collapse: collapse;
   width: 100%;
+  border-left: 1px solid #e5e5e5;
 }
 
 th, td {
   padding: 8px 10px;
   text-align: left;
+  border-right: 1px solid #e5e5e5;
 }
 
 th {
-  font-size: 0.85rem;
   font-weight: 600;
   color: #555;
+}
+
+/* 🔹 THIS ADDS LINE UNDER HEADER */
+thead tr {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background-color: #fafafa;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
 }
