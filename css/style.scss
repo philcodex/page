@@ -1,5 +1,6 @@
 ---
 ---
+
 /* Base Reset */
 *,
 *::before,
@@ -25,7 +26,7 @@ body {
   background: #ffffff;
   max-width: 760px;
   margin: 0 auto;
-  padding: 48px 20px 64px;
+  padding: 12px 20px 64px; /* reduced top spacing */
 }
 
 /* Typography */
@@ -89,7 +90,7 @@ a:focus {
 /* Navigation */
 
 nav {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.15rem;
   font-size: 1.15rem;
 }
 
@@ -106,17 +107,18 @@ nav a + a::before {
 /* Header */
 
 header {
-  margin-bottom: 2rem;
+  margin-top: 0;          /* ensures no extra space above */
+  margin-bottom: 1.25rem;
 }
 
 header h1 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.35rem;
 }
 
 header p {
   font-size: 1.2rem;
   color: #333;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Sections */
@@ -224,7 +226,7 @@ footer {
   }
 
   body {
-    padding: 32px 18px 48px;
+    padding: 24px 18px 48px; /* also slightly tighter on mobile */
   }
 
   h1 {
@@ -238,7 +240,7 @@ footer {
 
   nav {
     font-size: 1.05rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
   }
 }
 
