@@ -5,6 +5,7 @@ permalink: /career/
 ---
 
 ## Career
+<!-- <img src="{{ '/images/career.png' | relative_url }}" alt="Writing" style="width: 100%; height: auto;"> -->
 
 [Personal CV](https://carrollokane.com/cv)
 

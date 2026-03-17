@@ -5,19 +5,7 @@ permalink: /about/
 ---
 
 # About
-<img src="{{ 'images/human-clouds.png' | relative_url }}" alt="Writing" style="width: 100%; height: auto;">
-I’m Phil Carroll-O’Kane: A technical support engineer, systems thinker, and writer.
-
-- Short story (who you are)
-- What you’re focused on now
-- What roles you’re targeting
-- Key strengths:
-    - APIs
-    - debugging
-    - customer-facing engineering
-
----
-
+<img src="{{ '/images/human-clouds.png' | relative_url }}" alt="Writing" style="width: 100%; height: auto;">
 
 I’m Phil Carroll-O’Kane; a technical support engineer, systems thinker, and writer.
 
@@ -42,11 +30,11 @@ Over time, I’ve developed a strong focus on **debugging, systems thinking, and
 
 ## What I’m Focused On
 
-Right now, I’m focused on:
+I’m focused on delivering customer-centric engineering through the combination of design, development, tooling, and technical support.
 
-- Deepening my understanding of API-driven systems  
-- Building practical tools that mirror real-world support workflows  
-- Writing about debugging, incidents, and operational thinking  
+- Building systems and tools that improve how customers interact with APIs  
+- Taking ownership of issues from first report through to resolution
+- Communicating clearly and effectively throughout the lifecycle of a problem 
 
 ---
 
@@ -101,7 +89,9 @@ Most issues are not random — they are explainable with the right level of visi
 
 ## Outside of Work
 
-I also write about systems, debugging, and support engineering to clarify my thinking and share practical approaches.
+I write about systems, debugging, and support engineering to clarify my thinking and share practical approaches.
+
+I develop my skills through continuous learning, teaching, and by approaching problems with fresh perspective.
 
 ---
 

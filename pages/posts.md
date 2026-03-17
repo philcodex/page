@@ -6,8 +6,7 @@ permalink: /posts/
 
 ## Posts
 
-![](/images/posts.png)
-
+<img src="{{ '/images/posts.png' | relative_url }}" alt="Writing" style="width: 100%; height: auto;">
 {% if site.posts.size > 0 %}
 {% for post in site.posts %}
 

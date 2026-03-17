@@ -8,6 +8,8 @@ permalink: /projects/
 
 # Projects
 
+<img src="{{ '/images/projects.png' | relative_url }}" alt="projects" style="width: 100%; height: auto;">
+
 A collection of practical tools and experiments focused on APIs, support engineering, and operational systems.
 
 
@@ -16,7 +18,7 @@ A collection of practical tools and experiments focused on APIs, support enginee
 | Project | Description | Tech |
 |--------|------------|------|
 | API Monitoring + Alerts | Monitor API endpoints, detect failures, classify errors (timeout, 500, DNS, SSL), and log responses for debugging. | Python · Requests · JSON · CLI |
-| Service Monitor: [here](https://philcodex.github.io/service-monitor) | Check uptime of service endpoints using a simple button, showing ms time to respond and http response code | Flask · API· CLI | 
+| Service Monitor: [here](https://philcodex.github.io/service-monitor) | Check uptime of service endpoints using a simple button, showing ms time to respond and http response code | Javascript · API· CLI | 
 
 
 ### Roadmap
