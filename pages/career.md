@@ -10,7 +10,7 @@ permalink: /career/
 
 ## My 30-60-90 Day Plan as a Support Engineer
 
-![](/images/30-60-90.png)
+![](/phil-space/images/30-60-90.png)
 
 A structured approach to ramping up in a new support engineering role: focusing on understanding systems, resolving issues effectively, delivering measurable impact and being an active member of the team
 
