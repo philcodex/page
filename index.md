@@ -16,13 +16,6 @@ I write about support engineering, infrastructure, service management, and the p
 - **Career** — support engineering, ITSM, and operations thinking
 - **About** — background, experience, and contact details
 
-## Start here
-
-- [About]({{ "/about/" | relative_url }})
-- [Posts]({{ "/posts/" | relative_url }})
-- [Projects]({{ "/projects/" | relative_url }})
-- [Contact]({{ "/contact/" | relative_url }})
-
 ## Recent posts
 
 {% if site.posts.size > 0 %}

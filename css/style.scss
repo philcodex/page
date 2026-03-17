@@ -9,7 +9,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 2;
   padding: 0;
 }
 
@@ -26,7 +26,12 @@ body {
   background: #ffffff;
   max-width: 760px;
   margin: 0 auto;
-  padding: 12px 20px 64px; /* reduced top spacing */
+  padding: 8px 20px 64px;
+}
+
+main {
+  margin: 5;
+  padding: 0;
 }
 
 /* Typography */
@@ -43,12 +48,13 @@ h4 {
 
 h1 {
   font-size: 3.2rem;
+  margin-top: 0;
   margin-bottom: 0.75rem;
 }
 
 h2 {
   font-size: 2.2rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -90,6 +96,7 @@ a:focus {
 /* Navigation */
 
 nav {
+  margin-top: 0;
   margin-bottom: 0.15rem;
   font-size: 1.15rem;
 }
@@ -107,11 +114,13 @@ nav a + a::before {
 /* Header */
 
 header {
-  margin-top: 0;          /* ensures no extra space above */
+  margin-top: 0;
+  padding-top: 0;
   margin-bottom: 1.25rem;
 }
 
 header h1 {
+  margin-top: 0;
   margin-bottom: 0.35rem;
 }
 
@@ -119,6 +128,21 @@ header p {
   font-size: 1.2rem;
   color: #333;
   margin-bottom: 0.25rem;
+}
+
+/* Force first element tighter at top */
+
+main > :first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+main > h1:first-child,
+main > header:first-child,
+main > section:first-child,
+main > article:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* Sections */
@@ -226,7 +250,7 @@ footer {
   }
 
   body {
-    padding: 24px 18px 48px; /* also slightly tighter on mobile */
+    padding: 8px 18px 48px;
   }
 
   h1 {
