@@ -15,10 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site settings
-title: My Service Monitor
-email: your-email@example.com
+title: Phil's Space
 description: >- # this means to ignore newlines until "baseurl:"
-  A simple monitor for my API services.
+  A space for things
 
 # Deployment settings
 baseurl: "/phil-space" # Note the leading slash
