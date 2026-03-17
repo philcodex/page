@@ -275,3 +275,21 @@ header h1 a:hover {
     margin-bottom: 0.75rem;
   }
 }
+
+/* Tables - smaller, cleaner */
+table {
+  font-size: 80%;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+}
