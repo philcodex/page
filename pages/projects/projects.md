@@ -4,9 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-[Open Source Tools]({{ '/projects/tools/' | relative_url }})
-
 # Projects
+
+[Open Source Tools]({{ '/projects/tools/' | relative_url }})
 
 <img src="/phil-space/images/projects.png" alt="Projects" style="width: 100%; height: auto;">
 
