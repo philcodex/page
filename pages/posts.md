@@ -4,7 +4,7 @@ title: Posts
 permalink: /posts/
 ---
 
-## Posts
+# Posts
 
 <img src="/phil-space/images/posts.png" alt="Writing" style="width: 100%; height: auto;">
 {% if site.posts.size > 0 %}
