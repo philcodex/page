@@ -16,9 +16,14 @@ I write to clarify how systems behave in production — and how to debug them wh
 
 ## Featured
 
-### How I Debug API Failures in Production
+### Customer Knowledge Is Only Valuable If It Changes Behaviour
+Customer knowledge must drive actions, not just store data  
+[Read →](/phil-space/writing/customer-knowledge/)
+
+
+<!-- ### How I Debug API Failures in Production
 Step-by-step approach to investigating API issues across DNS, TLS, and HTTP layers.  
-[Read →](/writing/api-debugging/)
+[Read →](/phil-space/writing/api-debugging/)
 
 ---
 
@@ -64,8 +69,9 @@ Moving beyond tickets — thinking in systems, ownership, and customer impact.
 - How Modern SaaS Systems Actually Work  
 - APIs, Webhooks, and Event-Driven Systems  
 - Observability and Debugging  
+-->
 
----
+--- 
 
 ## Notes
 
