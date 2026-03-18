@@ -7,7 +7,7 @@ permalink: /about/
 # About
 <img src="{{ '/images/human-clouds.png' | relative_url }}" alt="Writing" style="width: 100%; height: auto;">
 
-I’m Phil Carroll-O’Kane; a technical support engineer, systems thinker, and writer.
+I’m Phil Carroll-O’Kane; a technical support engineer, systems thinker, and writer. Here is my [current cv](../cv).
 
 I value customer-centric design and engineering, focusing on systems and APIs, and on understanding how things behave in production; and how to resolve them when they fail.
 
