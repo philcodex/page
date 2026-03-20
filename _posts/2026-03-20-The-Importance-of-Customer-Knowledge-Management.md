@@ -7,6 +7,8 @@ tags: [customer-knowledge, saas, support, data, operations]
 author: Phil Carroll-O'Kane
 ---
 
+## The Importance of Customer Knowledge Management
+
 Most companies today aren’t short on customer data—they’re overwhelmed by it. Marketing tracks campaigns, sales logs conversations, and support handles tickets. Yet customers still repeat themselves, encounter the same issues, and eventually churn.
 
 The problem isn’t data. It’s the gap between what companies know and what they actually do with that knowledge.
