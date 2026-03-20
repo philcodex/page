@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Importance of Customer Knowledge Management
-permalink: /writing/customer-knowledge/
+permalink: /writing/The-Importance-of-Customer-Knowledge-Management/
 
 # date: 2026-03-20
 # categories: [customer-success, saas, operations]
@@ -14,6 +14,8 @@ permalink: /writing/customer-knowledge/
 Most companies today aren’t short on customer data—they’re overwhelmed by it. Marketing tracks campaigns, sales logs conversations, and support handles tickets. Yet customers still repeat themselves, encounter the same issues, and eventually churn.
 
 The problem isn’t data. It’s the gap between what companies know and what they actually do with that knowledge.
+
+![alt text](../images/Customer-Knowledge-Management.png)
 
 Customer knowledge management closes that gap.
 
