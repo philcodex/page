@@ -18,7 +18,7 @@ I write to clarify how systems behave in production — and how to debug them wh
 
 ### The Importance of Customer Knowledge Management
 Turn customer data into actionable insights and outcomes
-[Read →](/phil-space/writing/The-Importance-of-Customer-Knowledge-Management/``)
+[Read →](/phil-space/writing/The-Importance-of-Customer-Knowledge-Management/)
 
 ### Customer Knowledge Is Only Valuable If It Changes Behaviour
 Customer knowledge must drive actions, not just store data  
