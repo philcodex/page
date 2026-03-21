@@ -36,16 +36,12 @@ Phil Space exists to:
 
 This is not just a blog — it’s a system for understanding.
 
----
-
 ## What you'll find
 
 - Short essays on technical and operational topics  
 - Notes on systems, tooling, and workflows  
 - Observations from real-world environments  
 - Ongoing ideas and experiments  
-
----
 
 ## Purpose
 
@@ -56,8 +52,6 @@ This site is designed to:
 - act as a public knowledge base  
 - provide a simple, clean reading experience  
 
----
-
 ## Tech Stack
 
 - **Jekyll** (static site generator)
@@ -66,8 +60,6 @@ This site is designed to:
 - **SCSS / CSS** (styling)
 
 Minimal, fast, and easy to maintain.
-
----
 
 ## Structure
 
