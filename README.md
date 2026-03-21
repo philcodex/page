@@ -4,8 +4,6 @@ A personal writing space exploring systems, SaaS, and real-world engineering.
 
 🌐 https://philcodex.github.io/phil-space/
 
----
-
 ## Overview
 
 Phil Space is a collection of essays and notes focused on:
