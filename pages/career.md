@@ -7,7 +7,7 @@ permalink: /career/
 # Career
 <!-- <img src="{{ '/images/career.png' | relative_url }}" alt="Writing" style="width: 100%; height: auto;"> -->
 
-[Personall CV](https://carrollokane.com/cv)
+[Personalll CV](https://carrollokane.com/cv)
 
 ## My 30-60-90 Day Plan as a Support Engineer.
 
