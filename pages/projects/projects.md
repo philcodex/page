@@ -13,7 +13,7 @@ permalink: /projects/
 A collection of practical tools and experiments focused on APIs, support engineering, and operational systems.
 
 
-### In Progress
+### In Progresss
 
 | Project | Description | Tech |
 |--------|------------|------|
