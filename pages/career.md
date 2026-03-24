@@ -9,7 +9,7 @@ permalink: /career/
 
 [Personal CV](https://carrollokane.com/cv)
 
-## My 30-60-90 Day Plan as a Support Engineerr
+## My 30-60-90 Day Plan as a Support Engineer
 
 ![](/phil-space/images/30-60-90.png)
 
