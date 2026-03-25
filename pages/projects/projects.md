@@ -13,12 +13,13 @@ permalink: /projects/
 A collection of practical tools and experiments focused on APIs, support engineering, and operational systems.
 
 
-### In Progresss
+### In Progresss  - Are projects ever really complete? 
 
 | Project | Description | Tech |
 |--------|------------|------|
 | API Monitoring + Alerts | Monitor API endpoints, detect failures, classify errors (timeout, 500, DNS, SSL), and log responses for debugging. | Python · Requests · JSON · CLI |
 | Service Monitor: [here](https://philcodex.github.io/service-monitor) | Check uptime of service endpoints using a simple button, showing ms time to respond and http response code | Javascript · API· CLI | 
+| Latency Monitor: [here](https://github.com/philcodex/Learn-Python/tree/main/03-Projects/latency%20monitor) | Monitors URL latency over multiple curl runs, reports average response time | Python
 
 
 ### Roadmap
