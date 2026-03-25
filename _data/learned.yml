@@ -1,0 +1,14 @@
+- title: Git needs add, commit, and push
+  date: 2026-03-25
+  note: Running git add without git commit means nothing gets pushed.
+  tags:
+    - git
+    - github
+
+- title: Jekyll Liquid sort fails on missing data
+  date: 2026-03-25
+  note: Sorting a missing data object in Liquid causes the GitHub Pages build to fail.
+  tags:
+    - jekyll
+    - liquid
+    - github-pages
