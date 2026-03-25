@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /things-i-learned/
 title: Things I Learned
 ---
 
@@ -9,8 +10,9 @@ A running log of things I've picked up — tools, commands, concepts, and small 
 
 ---
 
-{% assign entries = site.data.learned | sort: "date" | reverse %}
+{% assign entries = site.data.learned | default: empty | sort: "date" | reverse %}
 
+{% if entries.size > 0 %}
 {% for entry in entries %}
 ### {{ entry.title }}
 <span class="post-date">{{ entry.date }}</span>
@@ -23,3 +25,6 @@ A running log of things I've picked up — tools, commands, concepts, and small 
 
 ---
 {% endfor %}
+{% else %}
+No entries yet.
+{% endif %}
