@@ -4,7 +4,7 @@ permalink: /things-i-learned/
 title: Things I Learned
 ---
 
-# Things I Learned
+# Things I Learned.
 
 A running log of things I've picked up — tools, commands, concepts, and small discoveries worth remembering.
 
