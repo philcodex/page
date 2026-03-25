@@ -1,0 +1,339 @@
+---
+---
+
+/* Base Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: #111;
+  background: #ffffff;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 8px 20px 64px;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+main {
+  margin-top: 0;
+}
+
+main > *:first-child {
+  margin-top: 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 2.0rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+strong {
+  font-weight: 700;
+}
+
+hr {
+  margin: 1rem 0;
+  border: none;
+  border-top: .5px solid #7e2a2a;
+}
+
+/* Links */
+
+a {
+  color: #0a58ca;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* Navigation */
+
+nav {
+  margin-top: 0;
+  margin-bottom: 0.15rem;
+  font-size: 1.15rem;
+}
+
+nav a {
+  font-weight: 400;
+}
+
+nav a + a::before {
+  content: " | ";
+  color: #666;
+  font-weight: 400;
+}
+
+/* Header */
+
+header {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+/* Force first element tighter at top */
+
+// main > :first-child {
+//   margin-top: 0 !important;
+//   padding-top: 0 !important;
+// }
+
+// main > h1:first-child,
+// main > header:first-child,
+// main > section:first-child,
+// main > article:first-child {
+//   margin-top: 0 !important;
+//   padding-top: 0 !important;
+// }
+
+/* Sections */
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+/* Lists */
+
+ol,
+ul {
+  margin: 0.5rem 0 1rem 1.25rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+/* Posts */
+
+.post {
+  margin-bottom: 3rem;
+}
+
+.post-title {
+  margin-bottom: 0.35rem;
+}
+
+.post-date {
+  display: block;
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 0.9rem;
+}
+
+/* Code */
+
+pre {
+  background: #f5f5f5;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 0.92rem;
+}
+
+p code,
+li code {
+  background: #f0f0f0;
+  padding: 0.12rem 0.35rem;
+  border-radius: 4px;
+}
+
+/* Blockquotes */
+
+blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 1rem;
+  color: #555;
+  margin: 1.5rem 0;
+}
+
+/* Images */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0 0.5rem;
+  border-radius: 2px;
+}
+
+/* Optional hero helpers */
+
+.hero-text {
+  margin-bottom: 0.5rem;
+}
+
+.hero-image {
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+header h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 8px 18px 48px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  nav {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* Tables - smaller, cleaner */
+table {
+  font-size: 0.8rem;
+  border-collapse: collapse;
+  width: 100%;
+  border-left: 1px solid #e5e5e5;
+}
+
+th, td {
+  padding: 8px 10px;
+  text-align: left;
+  border-right: 1px solid #e5e5e5;
+}
+
+th {
+  font-weight: 600;
+  color: #555;
+}
+
+/* 🔹 THIS ADDS LINE UNDER HEADER */
+thead tr {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background-color: #fafafa;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
+}
+
+nav a.active {
+  font-weight: 700;
+  color: #312f67;
+}
