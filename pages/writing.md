@@ -16,6 +16,10 @@ I write to clarify how systems behave in production — and how to debug them wh
 
 ## Featured
 
+### Customer-Focused Support Is a Systems Problem  
+Designing systems, tools, and processes that reduce friction and improve how customers interact with APIs.  
+[Read →]({{ '/writing/customer-focused-support/' | relative_url }})
+
 ### The Importance of Customer Knowledge Management
 Turn customer data into actionable insights and outcomes
 [Read →](/phil-space/writing/The-Importance-of-Customer-Knowledge-Management/)
