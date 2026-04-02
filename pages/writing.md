@@ -16,8 +16,6 @@ I write to clarify how systems behave in production — and how to debug them wh
 
 ## Featured
 
-### 
-
 ### Documentation Is the Memory of a Support Team
 How structured documentation transforms individual knowledge into a system that learns, scales, and improves over time.
 [Read →]({{ '/writing/documentation-support-memory/' | relative_url }})
