@@ -55,4 +55,3 @@ title: Things I Learned
   </div>
 
   <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem;
