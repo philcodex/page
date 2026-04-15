@@ -8,7 +8,6 @@ permalink: /cv/
 
 ITIL Certified Application Support Engineer
 
-+353 (87) 251 3592  
 [phil@carrollokane.com](mailto:phil@carrollokane.com)  
 [linkedin.com/in/philokane](https://linkedin.com/in/philokane)  
 Tipperary, Ireland
