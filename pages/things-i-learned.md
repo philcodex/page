@@ -52,7 +52,7 @@ title: Things I Learned
       <span class="tag-pill">testing</span>
       <span class="tag-pill">qa</span>
     </div>
-
+<div>
   <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
     <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Git pull can overwrite local changes</h2>
     <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
@@ -60,96 +60,6 @@ title: Things I Learned
     <div class="tags">
       <span class="tag-pill">git</span>
       <span class="tag-pill">version-control</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Relative paths break easily in nested folders</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Moving files deeper into directory structures often breaks CSS, JS, and image links that rely on relative paths.</p>
-    <div class="tags">
-      <span class="tag-pill">web-dev</span>
-      <span class="tag-pill">paths</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Browsers aggressively cache CSS files</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">When style changes don't appear, clearing cache or using versioned filenames often resolves the issue.</p>
-    <div class="tags">
-      <span class="tag-pill">web-dev</span>
-      <span class="tag-pill">caching</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Console logs are underrated debugging tools</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Adding simple logging statements often reveals unexpected values or logic flow issues faster than stepping through a debugger.</p>
-    <div class="tags">
-      <span class="tag-pill">debugging</span>
-      <span class="tag-pill">javascript</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Trailing slashes matter in URLs</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Some static site generators treat /page and /page/ differently, which can lead to broken navigation links.</p>
-    <div class="tags">
-      <span class="tag-pill">jekyll</span>
-      <span class="tag-pill">urls</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Environment variables prevent hardcoding secrets</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Storing API keys and credentials in environment variables improves security and portability across systems.</p>
-    <div class="tags">
-      <span class="tag-pill">security</span>
-      <span class="tag-pill">devops</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Markdown renders differently across platforms</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Features like tables or embedded HTML may work locally but fail on certain hosted environments.</p>
-    <div class="tags">
-      <span class="tag-pill">markdown</span>
-      <span class="tag-pill">documentation</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">File permissions can block deployments</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Incorrect file permissions can silently prevent scripts from executing or files from being served.</p>
-    <div class="tags">
-      <span class="tag-pill">linux</span>
-      <span class="tag-pill">permissions</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Small commits make debugging easier</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Frequent, focused commits make it easier to identify exactly where bugs were introduced.</p>
-    <div class="tags">
-      <span class="tag-pill">git</span>
-      <span class="tag-pill">workflow</span>
-    </div>
-  </div>
-
-  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
-    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Search logs before guessing causes</h2>
-    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
-    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">System and application logs often contain direct evidence of failure, reducing guesswork during troubleshooting.</p>
-    <div class="tags">
-      <span class="tag-pill">troubleshooting</span>
-      <span class="tag-pill">logging</span>
     </div>
   </div>
 
