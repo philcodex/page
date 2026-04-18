@@ -52,6 +52,7 @@ title: Things I Learned
       <span class="tag-pill">testing</span>
       <span class="tag-pill">qa</span>
     </div>
+   </div> 
 <div>
   <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
     <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Git pull can overwrite local changes</h2>
