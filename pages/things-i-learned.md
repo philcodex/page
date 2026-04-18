@@ -59,9 +59,22 @@ title: Things I Learned
     <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Git pull can overwrite local changes</h2>
     <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
     <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Running git pull without committing or stashing local work first can cause merge conflicts or lost progress.</p>
-
+    <div class="tags">
+      <span class="tag-pill">git</span>
+      <span class="tag-pill">version-control</span>
+    </div>
   </div>
 
+<div>
+  <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
+    <h2 style="font-size: 1.5rem; color: var(--navy); margin-bottom: 0.5rem;">Git pull can overwrite local changes</h2>
+    <div style="color: var(--muted); font-size: 0.8rem; margin-bottom: 1rem;">2026-04-18</div>
+    <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Running git pull without committing or stashing local work first can cause merge conflicts or lost progress.</p>
+    <div class="tags">
+      <span class="tag-pill">git</span>
+      <span class="tag-pill">version-control</span>
+    </div>
+  </div>`
 
 
   <div class="learning-post" style="margin-bottom: 2rem; border-bottom: 1px solid rgba(27,42,74,0.12); padding-bottom: 1.5rem;">
